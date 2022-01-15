@@ -278,12 +278,15 @@ header {
 }
 
 .course-duration{
+    background-color: #FFE4E8;
+    border-radius: 14px;
     display: flex;
     align-items: center;
     padding:  3px;
     color: #FF4A60;
     font-size: 14px;
     padding-right: 5px;
+    margin-left: 5px;
 }
 .course-duration img{
     width: 20px;
@@ -377,7 +380,11 @@ header {
         font-size: 25px;
     }
     .influencer-info p{
-     font-size: 13px;
+     font-size: 14px;
+    }
+    
+    .influencer-img img {
+        width: 300px;
     }
     .prebook-button{
         margin: 0 auto;
