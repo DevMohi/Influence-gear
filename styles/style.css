@@ -1,0 +1,463 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto:wght@300;400&display=swap');
+
+/* Inter  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+/* Manrope */
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    
+}
+/* Header Section consisting of navbar and influencer section */
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+/* nav-bar section  */
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    width: 1400px;
+    justify-content: space-between;
+}
+
+.site-name h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.nav-links ul {
+    display: flex;
+}
+
+.nav-links ul li {
+    list-style: none;
+    margin-right: 34px;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+.nav-links ul li:hover{
+    transform: scale(1.3);
+    transition: 0.3s ease-in;
+}
+
+/* influencer section  */
+.influencer-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:1400px;   
+    margin-top: 50px;
+}
+
+.influencer-info{
+    width: 700px;
+    margin-left: 13px;
+}
+
+.influencer-info h1{
+    font-weight: 700;
+    color: #3A3A3A;
+    size: 52px;
+
+}
+
+.influencer-info p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+.prebook-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #E02C6D;
+    width: 196px;
+    height: 44px;
+}
+
+.prebook-button a {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.prebook-button span {
+    margin-left: 8px;
+}
+
+.prebook-button:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+}
+
+/* Popular-colection  */
+.popular-collection {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.section-title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+.popular-grid {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1200px;
+    grid-row-gap: 40px;
+   
+    
+}
+
+.product-container {
+  
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 330px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.20);
+}
+
+
+
+.product-image img {
+    margin-top: 20px;
+    width: 300px;
+    height: 256px;
+}
+
+.product-title {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.product-price {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.product-information span {
+    margin-left: 10px;
+}
+
+.product-information p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #787885;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.product-container:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in;
+}
+
+.explore-more {
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-left: -22px;
+    width: 1150px;
+    
+}
+
+
+.explore-more-button a {
+    color: #E02C6D;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.explore-more-button span {
+    margin-left: 5px;
+}
+
+.explore-more-button:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
+}
+
+/* courses - section */
+
+
+.courses-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 100px;
+    margin-top: -30px;
+}
+
+.latest-course-container{
+    display: grid;
+    width: 800px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+   
+}
+.courses{
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+   
+}
+.courses img{
+    width: 224px;
+    height: 104px;
+    
+}
+
+.courses p{
+    color: #ED6B4F;
+    font-size: 14px;
+    font-weight: normal;
+   
+    
+}
+ .latest-course-container .courses h3{
+    margin-top: 5px;
+}
+.course-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+    margin-right: 10px;
+}
+.fa-star{
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.course-duration{
+    display: flex;
+    align-items: center;
+    padding:  3px;
+    color: #FF4A60;
+    font-size: 14px;
+    padding-right: 5px;
+}
+.course-duration img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.courses:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+}
+
+
+/* footer  */ 
+
+ footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
+.footer-details{
+    text-align: center;
+    width: 400px;
+    height: 160px;
+}
+
+.footer-details h2{
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.footer-details p{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+.icons div{
+    margin-right: 10px;
+}
+
+.twitter a i, .instagram a i , .youtube a i, .facebook a i{
+    color: #FFFFFF;
+}
+.icons div:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in;
+}
+
+/* media queries  */
+
+/* Mobile devices */
+
+@media only screen and (max-width: 688px)
+{
+    body, html{
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+    
+    .nav-bar{
+        flex-direction: column;
+    }
+    
+    .nav-links{
+        display: none;
+    }
+    
+    .influencer-section{
+        width: 90%;
+        flex-direction: column-reverse;
+    }
+    
+    .influencer-info {
+        width: 100%;
+        text-align: center;
+    }
+    .influencer-info h1 {
+        font-size: 25px;
+    }
+    .influencer-info p{
+     font-size: 13px;
+    }
+    .prebook-button{
+        margin: 0 auto;
+    }
+
+
+    .popular-grid{
+      
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .explore-more {
+        width: 100%;
+        
+    }
+    .latest-course-container{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+
+    .courses{
+        margin-bottom: 20px;
+        width: 225px;
+        display: flex;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    footer {
+        width: 100%;
+       
+    }
+
+}
+
+
+/* tablet devices  */
+@media only screen and (min-width: 688px) and (max-width:992px){
+
+    body,html{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .nav-bar{
+        flex-direction: column;
+    }
+
+    .influencer-section{
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+    .influencer-info{
+        text-align: center;
+    }
+    .prebook-button{
+        margin: 0 auto;
+    }
+
+    .popular-grid{
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+    }
+    .explore-more{
+        width: 100%;
+    }
+
+
+    .latest-course-container{
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    .courses{
+        margin-bottom: 20px;
+        width: 225px;
+        display: flex;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+}
